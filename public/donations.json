@@ -1,0 +1,136 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/LSzVm0B/successful-medical-team.jpg",
+      "title": "Medical Supplies",
+      "category": "Health",
+      "category_bg_color": "#0052ff33",
+      "card_bg_color": "#0052ff26",
+      "text_button_bg_color": "#0052FF",
+      "description": "Donate to provide essential medical supplies to vulnerable communities in need of urgent healthcare support.",
+      "price": 500.00
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/3fjCSTz/group-african-kids-paying-attention-class.jpg",
+      "title": "Education Scholarships",
+      "category": "Education",
+      "category_bg_color": "#ff444a33",
+      "card_bg_color": "#ff444a26",
+      "text_button_bg_color": "#FF444A",
+      "description": "Support the education of underprivileged children by contributing to scholarships and educational programs.",
+      "price": 300.00
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/Vwwmbh5/ev-IWJH-l-vb4k-unsplash.jpg",
+      "title": "Warm Clothing",
+      "category": "Clothing",
+      "category_bg_color": "#79c23f33",
+      "card_bg_color": "#79c23f26",
+      "text_button_bg_color": "#79C23F",
+      "description": "Help provide warm clothing and essentials to homeless individuals living on the streets during harsh weather conditions.",
+      "price": 200.00
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/L1V8K68/community-actions-with-food-donations.jpg",
+      "title": "Emergency Food Aid",
+      "category": "Food",
+      "category_bg_color": "#f8714733",
+      "card_bg_color": "#f8714726",
+      "text_button_bg_color": "#F87147",
+      "description": "Contribute to our efforts to provide emergency food aid to families facing hunger and food insecurity.",
+      "price": 450.00
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/KKwbh91/pnh-copy.png",
+      "title": "Nutritious Meals",
+      "category": "Food",
+      "category_bg_color": "#f8714733",
+      "card_bg_color": "#f8714726",
+      "text_button_bg_color": "#F87147",
+      "description": "Join us in the fight against child malnutrition by contributing to nutritious meals for at-risk children.",
+      "price": 350.00
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/ZfJdC2Q/mat-napo-Ma-Ksx8-JNbi-I-unsplash.jpg",
+      "title": "Emergency Relief Kits",
+      "category": "Clothing",
+      "category_bg_color": "#79c23f33",
+      "card_bg_color": "#79c23f26",
+      "text_button_bg_color": "#79C23F",
+      "description": "Support disaster relief efforts by providing emergency clothing and supplies to survivors in crisis areas.",
+      "price": 550.00
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/hcX2pNJ/jason-goodman-vbxy-Fxlgpj-M-unsplash.jpg",
+      "title": "Digital Learning",
+      "category": "Education",
+      "category_bg_color": "#ff444a33",
+      "card_bg_color": "#ff444a26",
+      "text_button_bg_color": "#FF444A",
+      "description": "Empower disadvantaged students with books and school supplies to help them succeed in their education.",
+      "price": 400.00
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/5MKXpwQ/UNI182807.jpg",
+      "title": "Access to Clean Water",
+      "category": "Health",
+      "category_bg_color": "#0052ff33",
+      "card_bg_color": "#0052ff26",
+      "text_button_bg_color": "#0052FF",
+      "description": "Support projects that bring clean and safe drinking water to remote villages, improving health and sanitation.",
+      "price": 600.00
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/5KWnfng/africa-humanitarian-aid-doctor-taking-care-patient.jpg",
+      "title": "Medical Camps",
+      "category": "Health",
+      "category_bg_color": "#0052ff33",
+      "card_bg_color": "#0052ff26",
+      "text_button_bg_color": "#0052FF",
+      "description": "Support our medical camps that provide free healthcare services to underserved populations in remote areas.",
+      "price": 700.00
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/p2X2B7q/cdc-GDok-EYn-Ofn-E-unsplash.jpg",
+      "title": "Books and School",
+      "category": "Education",
+      "category_bg_color": "#ff444a33",
+      "card_bg_color": "#ff444a26",
+      "text_button_bg_color": "#FF444A",
+      "description": "Empower disadvantaged students with books and school supplies to help them succeed in their education.",
+      "price": 400.00
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/cyrZRWN/56a0f1506.webp",
+      "title": "Warm Blankets",
+      "category": "Clothing",
+      "category_bg_color": "#79c23f33",
+      "card_bg_color": "#79c23f26",
+      "text_button_bg_color": "#79C23F",
+      "description": "Provide warmth and comfort to refugees in cold regions by donating warm blankets and essentials.",
+      "price": 300.00
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/nwGpC2s/gardeners-working-team-copy.jpg",
+        "title": "Community Garden",
+        "category": "Food",
+        "category_bg_color": "#f8714733",
+        "card_bg_color": "#f8714726",
+        "text_button_bg_color": "#F87147",
+        "description": "Support the establishment of a community garden to grow fresh, sustainable food for local residents and those in need.",
+        "price": 800.00
+      }
+      
+  ]
+  
