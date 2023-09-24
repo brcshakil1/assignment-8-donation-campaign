@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const DonationDetails = () => {
   const [donationDetails, setDonationDetails] = useState([]);
@@ -8,6 +10,7 @@ const DonationDetails = () => {
   const idInt = parseInt(id);
 
   const handleDonate = () => {
+    toast("You've donated successfully!");
     console.log("done");
   };
 
@@ -24,6 +27,7 @@ const DonationDetails = () => {
 
   return (
     <div className="my-10 md:mt-10 md:mb-10">
+      <ToastContainer />
       <div className="relative">
         <img
           className="w-full h-auto rounded-md relative"
@@ -31,7 +35,10 @@ const DonationDetails = () => {
           alt=""
         />
         <div className="absolute bottom-0 bg-[#0b0b0b80] w-full rounded-b-md z-50">
-          <button className="bg-[#FF444A] text-xl text-white py-4 px-6 rounded-md m-4 md:m-9">
+          <button
+            onClick={handleDonate}
+            className="bg-[#FF444A] text-xl text-white py-4 px-6 rounded-md m-4 md:m-9"
+          >
             Donate ${price}
           </button>
         </div>
