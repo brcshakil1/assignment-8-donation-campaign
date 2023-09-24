@@ -1,11 +1,47 @@
-import React from "react";
-import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useLoaderData, useParams } from "react-router-dom";
 
 const DonationDetails = () => {
+  const [donationDetails, setDonationDetails] = useState([]);
+  const donationCampaigns = useLoaderData();
   const { id } = useParams();
+  const idInt = parseInt(id);
+
+  const handleDonate = () => {
+    console.log("done");
+  };
+
+  useEffect(() => {
+    const findDonationCampaign = donationCampaigns.find(
+      (campaign) => campaign.id === idInt
+    );
+    setDonationDetails(findDonationCampaign);
+  }, [idInt, donationCampaigns]);
+
+  const { picture, title, description, price } = donationDetails;
+
+  console.log(donationDetails);
+
   return (
-    <div>
-      <h1> donate details</h1>
+    <div className="my-10 md:mt-10 md:mb-10">
+      <div className="relative">
+        <img
+          className="w-full h-auto rounded-md relative"
+          src={picture}
+          alt=""
+        />
+        <div className="absolute bottom-0 bg-[#0b0b0b80] w-full rounded-b-md z-50">
+          <button className="bg-[#FF444A] text-xl text-white py-4 px-6 rounded-md m-4 md:m-9">
+            Donate ${price}
+          </button>
+        </div>
+      </div>
+      <div className="pt-14">
+        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold pb-6">
+          {title}
+        </h3>
+        <p className="text-justify">{description}</p>
+      </div>
     </div>
   );
 };

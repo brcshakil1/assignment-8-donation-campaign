@@ -7,8 +7,8 @@
       "category_bg_color": "#0052ff33",
       "card_bg_color": "#0052ff26",
       "text_button_bg_color": "#0052FF",
-      "description": "Donate to provide essential medical supplies to vulnerable communities in need of urgent healthcare support.",
-      "price": 500.00
+      "description": "Donate to provide essential medical supplies to vulnerable communities in need of urgent healthcare support. Your contribution will help ensure that medical facilities in underserved areas have access to vital resources such as personal protective equipment, medications, and diagnostic tools. By supporting this cause, you become a lifeline for individuals who lack access to proper medical care, especially during emergencies and crises. Together, we can make a significant impact on improving healthcare outcomes and saving lives. Join us in our mission to bring hope and healing to those who need it most.",
+      "price": 500
     },
     {
       "id": 2,
@@ -18,8 +18,8 @@
       "category_bg_color": "#ff444a33",
       "card_bg_color": "#ff444a26",
       "text_button_bg_color": "#FF444A",
-      "description": "Support the education of underprivileged children by contributing to scholarships and educational programs.",
-      "price": 300.00
+      "description": "Support the education of underprivileged children by contributing to scholarships and educational programs. Your donation will help break the cycle of poverty by providing access to quality education, books, and school supplies. By empowering these young minds with knowledge and opportunities, you enable them to build brighter futures for themselves and their communities. Education is a powerful tool for social transformation, and your support can make a profound difference in the lives of these children. Join us in giving them a chance to dream, learn, and thrive.",
+      "price": 300
     },
     {
       "id": 3,
@@ -29,8 +29,8 @@
       "category_bg_color": "#79c23f33",
       "card_bg_color": "#79c23f26",
       "text_button_bg_color": "#79C23F",
-      "description": "Help provide warm clothing and essentials to homeless individuals living on the streets during harsh weather conditions.",
-      "price": 200.00
+      "description": "Help provide warm clothing and essentials to homeless individuals living on the streets during harsh weather conditions. Your donation will make a direct impact on the well-being of those facing the challenges of homelessness. With winter approaching, these individuals are particularly vulnerable to the cold, making warm clothing a lifeline. By contributing, you provide not only physical warmth but also a sense of dignity and care. Together, we can make the streets a bit warmer and show compassion to those who need it most. Join us in spreading warmth and hope this season.",
+      "price": 200
     },
     {
       "id": 4,
@@ -40,8 +40,8 @@
       "category_bg_color": "#f8714733",
       "card_bg_color": "#f8714726",
       "text_button_bg_color": "#F87147",
-      "description": "Contribute to our efforts to provide emergency food aid to families facing hunger and food insecurity.",
-      "price": 450.00
+      "description": "Contribute to our efforts to provide emergency food aid to families facing hunger and food insecurity. In times of crisis, access to nutritious meals becomes a critical need. Your donation will ensure that struggling families receive the sustenance they need to thrive. Hunger can have lasting effects on individuals, especially children, impacting their physical and mental development. By supporting this initiative, you become a lifeline for those in dire need, offering not just food but also hope and relief. Join us in our mission to combat hunger and make a meaningful difference in the lives of these families.",
+      "price": 450
     },
     {
       "id": 5,
@@ -51,8 +51,8 @@
       "category_bg_color": "#f8714733",
       "card_bg_color": "#f8714726",
       "text_button_bg_color": "#F87147",
-      "description": "Join us in the fight against child malnutrition by contributing to nutritious meals for at-risk children.",
-      "price": 350.00
+      "description": "JJoin us in the fight against child malnutrition by contributing to nutritious meals for at-risk children. Malnutrition can have devastating consequences on a child's growth and development. Your donation will support programs that provide essential nutrients and nourishment to children in need. By addressing malnutrition, we can help these children lead healthier lives and unlock their full potential. Your support is an investment in their future and a testament to the transformative power of nutritious food. Join us in ensuring that every child has the opportunity to grow, learn, and thrive.",
+      "price": 350
     },
     {
       "id": 6,
@@ -62,8 +62,8 @@
       "category_bg_color": "#79c23f33",
       "card_bg_color": "#79c23f26",
       "text_button_bg_color": "#79C23F",
-      "description": "Support disaster relief efforts by providing emergency clothing and supplies to survivors in crisis areas.",
-      "price": 550.00
+      "description": "Support disaster relief efforts by providing emergency clothing and supplies to survivors in crisis areas. When disaster strikes, access to basic necessities like clothing, shelter, and hygiene items becomes crucial for survival. Your donation will help ensure that individuals and families affected by disasters have the essentials they need to recover and rebuild their lives. By offering practical support during these challenging times, you provide comfort and hope to those facing unimaginable hardships. Join us in our mission to provide timely and effective relief to disaster survivors and offer them a lifeline in their time of need.",
+      "price": 550
     },
     {
       "id": 7,
@@ -73,8 +73,8 @@
       "category_bg_color": "#ff444a33",
       "card_bg_color": "#ff444a26",
       "text_button_bg_color": "#FF444A",
-      "description": "Empower disadvantaged students with books and school supplies to help them succeed in their education.",
-      "price": 400.00
+      "description": "Empower disadvantaged students with books and school supplies to help them succeed in their education. Access to quality educational resources can make a significant difference in a child's academic journey. Your support will provide books, school supplies, and digital learning tools to underserved schools, helping bridge the educational gap. By investing in education, you enable these students to overcome barriers and unlock their full potential. Join us in our commitment to creating a brighter future through education and equipping students with the tools they need to succeed.",
+      "price": 400
     },
     {
       "id": 8,
@@ -84,8 +84,8 @@
       "category_bg_color": "#0052ff33",
       "card_bg_color": "#0052ff26",
       "text_button_bg_color": "#0052FF",
-      "description": "Support projects that bring clean and safe drinking water to remote villages, improving health and sanitation.",
-      "price": 600.00
+      "description": "Support projects that bring clean and safe drinking water to remote villages, improving health and sanitation. Access to clean water is a fundamental human right, yet many communities around the world still lack this basic necessity. Your donation will help fund initiatives that build sustainable water sources, reducing the risk of waterborne diseases and improving overall well-being. By providing clean water, you empower communities to thrive and lead healthier lives. Join us in our mission to make clean water a reality for all and create a lasting impact on the health and prosperity of these villages.",
+      "price": 600
     },
     {
       "id": 9,
@@ -95,8 +95,8 @@
       "category_bg_color": "#0052ff33",
       "card_bg_color": "#0052ff26",
       "text_button_bg_color": "#0052FF",
-      "description": "Support our medical camps that provide free healthcare services to underserved populations in remote areas.",
-      "price": 700.00
+      "description": "Support our medical camps that provide free healthcare services to underserved populations in remote areas. In many remote regions, access to healthcare is limited or nonexistent, leaving communities vulnerable to preventable illnesses. Your contribution will help fund medical camps staffed by dedicated healthcare professionals who offer crucial services such as check-ups, vaccinations, and treatments. By supporting these camps, you bring hope and healing to those who often have no other options for medical care. Join us in our mission to make healthcare accessible to all, regardless of location or circumstance.",
+      "price": 700
     },
     {
       "id": 10,
@@ -106,8 +106,8 @@
       "category_bg_color": "#ff444a33",
       "card_bg_color": "#ff444a26",
       "text_button_bg_color": "#FF444A",
-      "description": "Empower disadvantaged students with books and school supplies to help them succeed in their education.",
-      "price": 400.00
+      "description": "Empower disadvantaged students with books and school supplies to help them succeed in their education. Quality education is a powerful tool for breaking the cycle of poverty, but many students lack access to essential learning resources. Your support will provide books, school supplies, and educational materials to underserved students, giving them the tools they need to excel academically. By investing in their education, you open doors to a brighter future and help these students reach their full potential. Join us in our commitment to nurturing the next generation of leaders and learners.",
+      "price": 400
     },
     {
       "id": 11,
@@ -117,8 +117,8 @@
       "category_bg_color": "#79c23f33",
       "card_bg_color": "#79c23f26",
       "text_button_bg_color": "#79C23F",
-      "description": "Provide warmth and comfort to refugees in cold regions by donating warm blankets and essentials.",
-      "price": 300.00
+      "description": "Provide warmth and comfort to refugees in cold regions by donating warm blankets and essentials. For refugees fleeing conflict or seeking safety, exposure to harsh weather conditions can be life-threatening. Your donation will help provide warm blankets and essential supplies to ensure their well-being and comfort during challenging times. By offering warmth and compassion, you provide a lifeline for those who have been forced to leave their homes in search of safety. Join us in our mission to offer support, dignity, and solace to refugees in cold regions.",
+      "price": 300
     },
     {
         "id": 12,
@@ -128,8 +128,8 @@
         "category_bg_color": "#f8714733",
         "card_bg_color": "#f8714726",
         "text_button_bg_color": "#F87147",
-        "description": "Support the establishment of a community garden to grow fresh, sustainable food for local residents and those in need.",
-        "price": 800.00
+        "description": "Join us in supporting the establishment of a community garden aimed at cultivating fresh, sustainable food sources for both local residents and individuals in need. This initiative goes beyond providing emergency aid, focusing on long-term sustainability and community resilience.",
+        "price": 800
       }
       
   ]
