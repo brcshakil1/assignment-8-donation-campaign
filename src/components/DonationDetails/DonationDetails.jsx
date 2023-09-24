@@ -5,7 +5,7 @@ const DonationDetails = () => {
   const { id } = useParams();
   return (
     <div>
-      <h1>details</h1>
+      <h1> donate details</h1>
     </div>
   );
 };
