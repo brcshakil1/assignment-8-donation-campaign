@@ -28,18 +28,20 @@ const AllDonation = () => {
           <Donation key={donation.id} donation={donation} />
         ))}
       </div>
-      <div
-        className={`flex justify-center mt-10 ${
-          donationLength === allDonations.length && "hidden"
-        }`}
-      >
-        <button
-          onClick={() => setDonationLength(allDonations.length)}
-          className="bg-green-600 rounded-md py-3 px-6 text-white font-semibold"
+      {donationLength > 4 && (
+        <div
+          className={`flex justify-center mt-10 ${
+            donationLength === allDonations.length && "hidden"
+          }`}
         >
-          See All
-        </button>
-      </div>
+          <button
+            onClick={() => setDonationLength(allDonations.length)}
+            className="bg-green-600 rounded-md py-3 px-6 text-white font-semibold"
+          >
+            See All
+          </button>
+        </div>
+      )}
     </div>
   );
 };
