@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { saveDonationInLS } from "../../utility/localStorage";
 
 const DonationDetails = () => {
   const [donationDetails, setDonationDetails] = useState([]);
@@ -11,7 +12,7 @@ const DonationDetails = () => {
 
   const handleDonate = () => {
     toast("You've donated successfully!");
-    console.log("done");
+    saveDonationInLS(idInt);
   };
 
   useEffect(() => {
