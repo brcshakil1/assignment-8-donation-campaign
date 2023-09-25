@@ -18,7 +18,7 @@ const Donation = ({ donation }) => {
       style={{ backgroundColor: `${card_bg_color}` }}
     >
       <figure>
-        <img src={picture} alt={title} className="w-56 h-56" />
+        <img src={picture} alt={title} className="w-56 h-56 rounded-md" />
       </figure>
       <div className="">
         <h2 className="card-title text-sm">
