@@ -5,8 +5,9 @@ import Donation from "../../components/Donation/Donation";
 
 const AllDonation = () => {
   const [allDonations, setAllDonations] = useState([]);
-  const [length, setLength] = useState(4);
+  const [donationLength, setDonationLength] = useState(4);
   const donationsCampaigns = useLoaderData();
+  console.log(allDonations);
 
   useEffect(() => {
     const donationIds = getDonationFromLS();
@@ -15,23 +16,27 @@ const AllDonation = () => {
       donationIds.includes(donations.id)
     );
 
-    if (length > 4) {
-      setLength(setAllDonations.length);
-    }
     setAllDonations(allTheDonations);
-  }, [donationsCampaigns]);
+  }, [donationLength, donationsCampaigns]);
 
-  console.log(allDonations);
+  console.log(donationLength);
 
   return (
     <div className="my-10 md:mb-20">
       <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
-        {allDonations.map((donation) => (
+        {allDonations.slice(0, donationLength).map((donation) => (
           <Donation key={donation.id} donation={donation} />
         ))}
       </div>
-      <div className="flex justify-center mt-10">
-        <button className="bg-green-600 rounded-md py-3 px-6 text-white font-semibold">
+      <div
+        className={`flex justify-center mt-10 ${
+          donationLength === allDonations.length && "hidden"
+        }`}
+      >
+        <button
+          onClick={() => setDonationLength(allDonations.length)}
+          className="bg-green-600 rounded-md py-3 px-6 text-white font-semibold"
+        >
           See All
         </button>
       </div>
