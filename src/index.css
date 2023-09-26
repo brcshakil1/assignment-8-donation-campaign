@@ -7,3 +7,12 @@ nav ul li a.active {
     color: tomato;
     font-weight: 700;
 }
+
+.banner {
+    background-image: url('./assets/banner.jpg');
+    background-color: rgba(255, 255, 255,0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}

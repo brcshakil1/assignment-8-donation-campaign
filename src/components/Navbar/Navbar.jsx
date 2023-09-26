@@ -9,9 +9,9 @@ const Navbar = () => {
   const handleToggle = () => {
     setIsTrue(!isTrue);
   };
-  console.log(isTrue);
+
   return (
-    <div className="flex justify-between items-center py-12">
+    <div className="flex justify-between items-center py-5">
       <div>
         <img className="w-[120px] md:w-auto" src={logo} alt="" />
       </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
         <ul
           className={`${
             isTrue && "hidden"
-          } md:flex gap-5 items-center absolute md:static top-20 right-4 py-14 px-14 md:py-8 md:px-6 bg-gray-200 md:bg-transparent z-50`}
+          } md:flex gap-5 items-center absolute md:static top-[95px] right-4 py-14 px-14 md:py-8 md:px-6 bg-gray-200 md:bg-transparent z-50`}
         >
           <li>
             <NavLink className="text-[18px]" to="/">
@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div onClick={handleToggle} className="md:hidden border">
+      <div onClick={handleToggle} className="md:hidden">
         {isTrue ? (
           <AiOutlineMenu className="text-3xl" />
         ) : (

@@ -8,7 +8,7 @@ const Banner = ({ handleFilter }) => {
   };
 
   return (
-    <div className="md:mb-20 mb-10">
+    <div className="banner md:mb-20 mb-10 py-10">
       <div className="h-[70vh] grid place-items-center">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold text-center">
