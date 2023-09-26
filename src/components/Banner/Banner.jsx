@@ -8,7 +8,7 @@ const Banner = ({ handleFilter }) => {
   };
 
   return (
-    <div className="banner md:mb-20 mb-10 py-10">
+    <div className="banner md:mb-20 mb-14 py-10">
       <div className="h-[70vh] grid place-items-center">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold text-center">
@@ -16,15 +16,15 @@ const Banner = ({ handleFilter }) => {
           </h1>
           <form
             onSubmit={handleSubmit}
-            className="w-[290px] md:w-[520px] mx-auto flex justify-center mt-10 relative"
+            className="w-[290px] md:w-[520px] mx-auto flex justify-center mt-10 relative border rounded-md"
           >
             <input
-              className="w-full border rounded-l-lg p-4 outline-none"
+              className="w-full border rounded-l-lg p-4 outline-none border-none"
               type="text"
               name="filter"
               placeholder="Search...."
             />
-            <button className="bg-[#FF444A] text-white font-semibold py-[17px] px-7 rounded-r-lg absolute -right-2 z-30">
+            <button className="bg-[#FF444A] text-white font-semibold min-h-full px-7 rounded-r-md">
               Search
             </button>
           </form>
