@@ -22,8 +22,6 @@ const AllDonation = () => {
     setAllDonations(allTheDonations);
   }, [donationLength, donationsCampaigns]);
 
-  console.log(allDonations);
-
   return (
     <div className="my-10 md:mb-20">
       <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">

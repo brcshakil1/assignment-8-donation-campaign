@@ -12,6 +12,7 @@ const Donation = ({ donation }) => {
     text_button_bg_color,
     price,
   } = donation;
+
   return (
     <div
       className="flex flex-col md:flex-row gap-6 md:items-center rounded-md"

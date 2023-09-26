@@ -19,7 +19,7 @@ const Navbar = () => {
         <ul
           className={`${
             isTrue && "hidden"
-          } md:flex gap-5 items-center absolute md:static top-20 right-4 py-14 px-14 md:py-8 md:px-6 bg-gray-200 md:bg-transparent`}
+          } md:flex gap-5 items-center absolute md:static top-20 right-4 py-14 px-14 md:py-8 md:px-6 bg-gray-200 md:bg-transparent z-50`}
         >
           <li>
             <NavLink className="text-[18px]" to="/">

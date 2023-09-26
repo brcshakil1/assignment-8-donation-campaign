@@ -6,6 +6,7 @@ const Banner = ({ handleFilter }) => {
     const searchValue = e.target.filter.value;
     handleFilter(searchValue);
   };
+
   return (
     <div className="md:mb-20 mb-10">
       <div className="h-[70vh] grid place-items-center">
