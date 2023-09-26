@@ -7,7 +7,7 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="" />
       </div>
-      <nav>
+      <nav className="hidden md:block">
         <ul className="flex gap-5 items-center">
           <li>
             <NavLink className="text-[18px]" to="/">

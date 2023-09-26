@@ -22,7 +22,8 @@ const DonationDetails = () => {
     setDonationDetails(findDonationCampaign);
   }, [idInt, donationCampaigns]);
 
-  const { picture, title, description, price } = donationDetails;
+  const { picture, title, description, price, text_button_bg_color } =
+    donationDetails;
 
   console.log(donationDetails);
 
@@ -38,7 +39,8 @@ const DonationDetails = () => {
         <div className="absolute bottom-0 bg-[#0b0b0b80] w-full rounded-b-md z-50">
           <button
             onClick={handleDonate}
-            className="bg-[#FF444A] text-xl text-white py-4 px-6 rounded-md m-4 md:m-9"
+            className="text-base md:text-xl text-white font-semibold py-2 md:py-4 px-4 md:px-6 rounded-md m-3 md:m-9"
+            style={{ backgroundColor: `${text_button_bg_color}` }}
           >
             Donate ${price}
           </button>

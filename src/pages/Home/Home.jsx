@@ -2,41 +2,34 @@ import { useLoaderData } from "react-router-dom";
 import DonationCampaigns from "../../components/DonationCampaigns/DonationCampaigns";
 import Banner from "../../components/Banner/Banner";
 import { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
   const [filterDonationCampaign, setFilterDonationCampaign] = useState([]);
   const donationCampaigns = useLoaderData();
 
   const handleFilter = (value) => {
-    if (value === "Health" || value === "health") {
-      const health = donationCampaigns.filter(
-        (campaign) => campaign.category === "Health"
-      );
-      setFilterDonationCampaign(health);
-    } else if (value === "Education" || value === "education") {
-      const education = donationCampaigns.filter(
-        (campaign) => campaign.category === "Education"
-      );
-      setFilterDonationCampaign(education);
-    } else if (value === "Clothing" || value === "clothing") {
-      const clothing = donationCampaigns.filter(
-        (campaign) => campaign.category === "Clothing"
-      );
-      setFilterDonationCampaign(clothing);
-    } else if (value === "Food" || value === "food") {
-      const food = donationCampaigns.filter(
-        (campaign) => campaign.category === "Food"
-      );
-      setFilterDonationCampaign(food);
+    const valueToLower = value.toLowerCase();
+
+    const filterCampaign = donationCampaigns.filter((campaign) => {
+      const categoryToLower = campaign.category.toLowerCase();
+      return categoryToLower === valueToLower;
+    });
+
+    if (!filterCampaign.length) {
+      toast("Not Found");
     }
+    setFilterDonationCampaign(filterCampaign);
   };
 
   useEffect(() => {
     setFilterDonationCampaign(donationCampaigns);
   }, [donationCampaigns]);
-  console.log(filterDonationCampaign);
+
   return (
     <div>
+      <ToastContainer />
       <Banner handleFilter={handleFilter} />
       <DonationCampaigns donationCampaigns={filterDonationCampaign} />
     </div>
