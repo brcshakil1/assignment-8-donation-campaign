@@ -17,10 +17,11 @@ const Home = () => {
       return categoryToLower === valueToLower;
     });
 
-    if (!filterCampaign.length) {
+    if (filterCampaign.length) {
+      setFilterDonationCampaign(filterCampaign);
+    } else {
       toast("Not Found");
     }
-    setFilterDonationCampaign(filterCampaign);
   };
 
   useEffect(() => {
