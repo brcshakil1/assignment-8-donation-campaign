@@ -7,7 +7,7 @@ const Banner = ({ handleFilter }) => {
     handleFilter(searchValue);
   };
   return (
-    <div>
+    <div className="md:mb-20 mb-10">
       <div className="h-[70vh] grid place-items-center">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold text-center">

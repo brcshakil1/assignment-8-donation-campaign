@@ -14,13 +14,17 @@ const Donation = ({ donation }) => {
   } = donation;
   return (
     <div
-      className="flex flex-col md:flex-row gap-6 items-center rounded-md"
+      className="flex flex-col md:flex-row gap-6 md:items-center rounded-md"
       style={{ backgroundColor: `${card_bg_color}` }}
     >
       <figure>
-        <img src={picture} alt={title} className="w-56 h-56 rounded-md" />
+        <img
+          src={picture}
+          alt={title}
+          className="w-full md:w-56 md:h-56  md:rounded-l-md"
+        />
       </figure>
-      <div className="">
+      <div className="pb-6 pl-6 md:pl-0 md:pb-0">
         <h2 className="card-title text-sm">
           <span
             className=" py-1 px-2.5 rounded-md"

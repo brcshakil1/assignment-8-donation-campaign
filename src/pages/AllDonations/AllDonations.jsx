@@ -7,7 +7,10 @@ const AllDonation = () => {
   const [allDonations, setAllDonations] = useState([]);
   const [donationLength, setDonationLength] = useState(4);
   const donationsCampaigns = useLoaderData();
-  console.log(allDonations);
+
+  const handleClick = () => {
+    setDonationLength(allDonations.length);
+  };
 
   useEffect(() => {
     const donationIds = getDonationFromLS();
@@ -19,7 +22,7 @@ const AllDonation = () => {
     setAllDonations(allTheDonations);
   }, [donationLength, donationsCampaigns]);
 
-  console.log(donationLength);
+  console.log(allDonations);
 
   return (
     <div className="my-10 md:mb-20">
@@ -28,14 +31,14 @@ const AllDonation = () => {
           <Donation key={donation.id} donation={donation} />
         ))}
       </div>
-      {donationLength > 4 && (
+      {allDonations.length > 4 && (
         <div
           className={`flex justify-center mt-10 ${
             donationLength === allDonations.length && "hidden"
           }`}
         >
           <button
-            onClick={() => setDonationLength(allDonations.length)}
+            onClick={handleClick}
             className="bg-green-600 rounded-md py-3 px-6 text-white font-semibold"
           >
             See All
