@@ -23,7 +23,7 @@ const AllDonation = () => {
   }, [donationLength, donationsCampaigns]);
 
   return (
-    <div className="my-10 md:mb-20">
+    <div className="my-20 px-4 max-w-7xl mx-auto">
       <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
         {allDonations.slice(0, donationLength).map((donation) => (
           <Donation key={donation.id} donation={donation} />

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/Logo.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
@@ -11,9 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-5">
+    <div className="flex justify-between items-center py-5 px-4 max-w-7xl mx-auto">
       <div>
-        <img className="w-[120px] md:w-auto" src={logo} alt="" />
+        <Link to="/">
+          <img className="w-[120px] md:w-auto" src={logo} alt="" />
+        </Link>
       </div>
       <nav>
         <ul

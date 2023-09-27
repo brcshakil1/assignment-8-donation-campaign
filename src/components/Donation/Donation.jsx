@@ -22,7 +22,7 @@ const Donation = ({ donation }) => {
         <img
           src={picture}
           alt={title}
-          className="w-full md:w-56 md:h-56  md:rounded-l-md"
+          className="w-full md:w-56 md:h-56  md:rounded-l-md border-transparent"
         />
       </figure>
       <div className="pb-6 pl-6 md:pl-0 md:pb-0">

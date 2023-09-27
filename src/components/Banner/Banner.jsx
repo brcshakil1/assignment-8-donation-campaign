@@ -22,7 +22,7 @@ const Banner = ({ handleFilter }) => {
               className="w-full border rounded-l-lg p-4 outline-none border-none"
               type="text"
               name="filter"
-              placeholder="Search...."
+              placeholder="Search here...."
             />
             <button className="bg-[#FF444A] text-white font-semibold min-h-full px-7 rounded-r-md">
               Search

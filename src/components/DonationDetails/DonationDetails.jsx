@@ -28,7 +28,7 @@ const DonationDetails = () => {
   console.log(donationDetails);
 
   return (
-    <div className="my-10 md:mt-10 md:mb-10">
+    <div className="my-10 md:mt-10 md:mb-10 px-4 max-w-7xl mx-auto">
       <ToastContainer />
       <div className="relative">
         <img
